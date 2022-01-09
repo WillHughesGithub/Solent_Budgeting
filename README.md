@@ -1,70 +1,70 @@
-# Getting Started with Create React App
+# Solent Budgeting SPA (Single Page Application)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+William Hughes | Q14147939
 
-## Available Scripts
+[Hosted Firebase Site](https://assignment2-9c312.web.app/)
 
-In the project directory, you can run:
+## Introduction
+As someone who constantly struggles to manage their budget, I decided to build a budgeting SPA (Single Page Application) using React JS. Not only was this project intended to reflect the designs outlined during assignment one, but furthermore this application would allow users to add different categories that could be identified via different colour palettes, as well as monitor their total spending via a dynamic wheel as well as view all recent transactions. The user would not however be able to set the price, because the idea was that this app would link directly to the user's bank account therefore the prices would be taken from there, however because there were time constraints with this project and legalities in place default prices were built into the code so whenever a new category was created a price would be automatically assigned. In addition, the SPA would be responsive for both desktops and mobiles.
 
-### `yarn start`
+## Methodology 
+During the first assessment I went on to discuss how the Design Thinking methodology influenced this project by adhering to the following steps:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+•	Empathize – Listen to and document the problems students have in relation to budgeting. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+•	Define the problem – Review notes from student discussions and highlight a universal problem they all faced 
 
-### `yarn test`
+•	Ideate – Focus on the problem outlined and devise a solution 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+•	Prototype – Create a high-fidelity mock-up of the solution 
 
-### `yarn build`
+This philosophical process helped define a problem that users experience at Solent University using online surveys to gather the data, which in this case turned out to be budgeting and determine a solution for it. However, for the development phase of this project the Agile methodology was applied, which involves sprint-based working. E.g., working on one section at a time and then uploading a draft or finished version to GitHub. In terms of how Agile was utilized with this project, first a user story was implemented to determine the demographic of the user and how it could solve the problem of budgeting for them.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Next work began on developing the React site. The changes were then pushed to GitHub, with at least two new additions per week.
+It is my belief that Agile was the only suitable methodology for this project, because if compared to a more linear methodology such as Waterfall everything must be based on the success of the previous phase and if something went wrong the process would need to begin again, whereas with Agile the sprint could be amended to accommodate this issue.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**User Story**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dexter is a first-year student at Solent University, studying Digital Design & Development. He has always had a problem with budgeting. For example, he prefers to spend money frivolously on nights out than manage his weekly/monthly budget. He also often uses his smartphone because he is usually on the move. One day he comes across a site advertised on Solent’s website called Solent Budgeting which tells him that this is an app optimized for mobile and desktop that can be integrated with his online bank account which shows how much he’s spent, what he’s spent the money on, and when the purchase occurred. The app also allows Dexter to manually add new categories. He decides to start using the app and is pleasantly surprised by how much money he ends up saving by the end of the first week.
 
-### `yarn eject`
+### Methods of Development
+Prior to the development phase of the Agile methodology, I watched several hours’ worth of React tutorials to achieve a basic understanding of what was required to bring this design to life and solve Dexter’s (user story) budgeting problem. My solution involved creating a list of the names of all the files and folders that would be used for the project so I could reference them if I got stuck. In hindsight perhaps it would have been wise to devise a project roadmap or a user flow, however at the time I wasn’t entirely sure I would even be able to make half of what I designed so I opted to go straight into the development phase without much planning.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The first sprint of the Agile methodology involved developing the transactions page, consecutively followed by the overview and categories pages. Components were used to develop, import, and export the navbar, footer, datafilter, expensefilter, categories/forms needed, and search bar. Furthermore, a hamburger menu was incorporated into the mobile version to not only adhere to the initial design but also allow for easier navigation when the app is used on small devices. These three sprints were the most time-consuming, which was due to a combination of errors, a lack of understanding of React JS, and missing or incomplete code. I had considered creating a login system for the app as well, despite it not being included in the initial design, however this idea was ultimately scrapped after the development of the aforementioned pages took longer than expected. Once the transactions, overview, and categories pages had been successfully developed and optimized for desktop and mobile they were then pushed to GitHub.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Conclusion/Results
+This SPA (Single Page Application) was built to successfully replicate the design that was devised during the first assessment of this project. The SPA used the following dependencies to bring the design to life:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+• Node JS
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+• Yarn
 
-## Learn More
+• Firebase
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+• React JS
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+While npm was the dominant package manager used throughout this project Yarn was also used to experiment with since according to it addresses more security and performance issues than npm, however npm was still used to run install and test the scripts.
 
-### Code Splitting
+Looking back, I’m surprised the SPA ended up looking as much like the design as it did. Without a doubt, the most frustrating aspect of this assignment was committing to GitHub and hosting on Firebase. With GitHub, for the longest time it wouldn’t let me commit anything, to the point where I even created a new account. Eventually I realised that GitHub only allows commits with tokens now, rather than passwords to improve their security, but even then doing this in VS Code took far longer than it should have. Firebase proved far worse and for the longest time VS Code would not let me install it using npm install -g firebase-tools. Errors appeared each time. Then when I finally managed to install it, after using some code I found from ?? the site would not be dynamic and only show me a welcome page from Firebase. Eventually I managed to solve this problem by simply using another laptop, but this was easily the worst part of this whole project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ **The main features of the site included:**
 
-### Analyzing the Bundle Size
+• Ability to see all your transactions
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+• A dynamic overview page, which automatically adjusts whenever a new category is added to show what you have spent the most on
 
-### Making a Progressive Web App
+• The ability to search for and add new categories
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+• Desktop and mobile optimised
 
-### Advanced Configuration
+**The features which were NOT included were:**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+• Registration page
 
-### Deployment
+• Login page
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+• Logout page
 
-### `yarn build` fails to minify
+• Links to any database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Looking back, I would like to incorporate more interactive features such as a registration page. The reason it was not included at the time was I was unsure if I could even create the current version of the React site, but if I should return to this project at any point in the future I would consider adding these features.
