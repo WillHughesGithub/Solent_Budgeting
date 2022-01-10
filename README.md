@@ -2,7 +2,7 @@
 
 William Hughes | Q14147939
 
-[Hosted Firebase Site](https://assignment2-9c312.web.app/)
+[Hosted Firebase Site](https://solent-budgeting.web.app/)
 
 ## Introduction
 As someone who constantly struggles to manage their budget, I decided to build a budgeting SPA (Single Page Application) using React JS. Not only was this project intended to reflect the designs outlined during assignment one, but furthermore this application would allow users to add different categories that could be identified via different colour palettes, as well as monitor their total spending via a dynamic wheel as well as view all recent transactions. The user would not however be able to set the price, because the idea was that this app would link directly to the user's bank account therefore the prices would be taken from there, however because there were time constraints with this project and legalities in place default prices were built into the code so whenever a new category was created a price would be automatically assigned. In addition, the SPA would be responsive for both desktops and mobiles.
