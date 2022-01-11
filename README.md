@@ -1,4 +1,4 @@
-# Solent Budgeting SPA (Single Page Application)
+# Solent Budgeting
 
 William Hughes | Q14147939
 
