@@ -22,7 +22,7 @@ This philosophical process helped me define the problem of budgeting which many 
 
 Agile seemed like the only suitable methodology for this project, because if compared to a more linear methodology such as Waterfall everything must be based on the success of the previous phase and if something went wrong the whole process would need to begin again from scratch, whereas with Agile the sprint could be amended to accommodate this issue.
 
-**User Story**
+### User Story
 Dexter is a first-year student at Solent University, studying Digital Design & Development. He has always had a problem with budgeting. In fact, he prefers to spend money frivolously on nights out than manage his weekly/monthly budget. He often uses his smartphone because he is usually on the move. One day he comes across a site advertised on Solent’s website called Solent Budgeting which tells him that this is an app optimized for mobile and desktop that can be integrated with his online bank account which shows how much he’s spent, what he’s spent the money on, and when the purchase occurred. The app also allows Dexter to manually add new categories. He decides to start using the app and is pleasantly surprised by how much money he ends up saving by the end of the first week.
 
 ## Methods of Development
