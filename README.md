@@ -2,7 +2,9 @@
 
 William Hughes | Q14147939
 
-[Hosted Firebase Site](https://solent-budgeting.web.app/)
+[Firebase Site](https://solent-budgeting.web.app/)
+
+[Documentation](https://github.com/WillHughesGithub/Solent_Budgeting/blob/master/Documentation.md/)
 
 ## About
 
