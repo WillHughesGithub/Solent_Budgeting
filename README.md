@@ -12,18 +12,16 @@ This is a budgeting SPA (Single Page Application) designed to help students at S
 
 ## Local Configuration
 
+**Clone the repository**
 ```bash
-Clone the repository
 $ git clone https://github.com/WillHughesGithub/Solent_Budgeting
 ```
 
+**Install dependencies**
 ```bash
-Install dependencies
 $ npm install
 ```
-
+**Deploy on localhost**
 ```bash
-Deploy on localhost
 $ npm run start
 ```
-
