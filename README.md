@@ -8,7 +8,7 @@ William Hughes | Q14147939
 As part of a university assessment, I was required to identify a problem Solent university students face, then design and develop a React JS SPA (Single Page Application) around it. The design had already been devised during the first assessment of this module in 2021 and as someone who struggles to manage their budget, I decided to build a responsive budgeting app that works on both mobile and desktop screens. Not only was this project intended to reflect the designs devised during the first assessment of this module, but furthermore this application would allow the user to add multiple categories which could be differentiated by colour palettes, monitor their total spending by the means of a dynamic wheel, and view all recent transactions. However, the user would not be able to manually set the price for each category, because the idea is that this app would be directly linked to their bank account, therefore the prices would be extracted from there, however because of the time constraints involved with this project default fees were built into the code, so whenever a new category is generated a price would be automatically assigned to reflect it.
 
 ## Methodology
-During the first assessment I went on to discuss how the Design Thinking methodology influenced this project by adhering to the following steps:
+During the first assessment I went on to discuss how the [Design Thinking Methodology](https://www.interaction-design.org/literature/article/5-stages-in-the-design-thinking-process/) influenced this project by adhering to the following steps:
 
 • Empathize – Listen to and document the problems students have in relation to budgeting.
 
