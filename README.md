@@ -9,10 +9,15 @@ William Hughes | Q14147939
 ```bash
 # Clone the repositary
 $ git clone https://github.com/WillHughesGithub/Solent_Budgeting
+```
 
+```bash
 # Install Dependencies
 $ npm install
+```
 
+```bash
 # Deploy on localhost
 $ npm run start
 ```
+
